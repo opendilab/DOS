@@ -1,5 +1,5 @@
 # DOS: A driving simulation benchmark DriveOcclusionSim consisting of diverse occlusion events
-![intro](assets/intro.png)
+![intro](assets/intro.jpg)
 > [Hao Shao](http://hao-shao.com/), [Letian Wang](https://letianwang0.wixsite.com/myhome), RuoBing Chen, [Steven L. Waslander](https://www.trailab.utias.utoronto.ca/), [Hongsheng Li](http://www.ee.cuhk.edu.hk/~hsli/), [Yu Liu](https://liuyu.us/)
 > 
 > [CVPR 2023](https://arxiv.org/abs/2305.10507)
