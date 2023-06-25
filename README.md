@@ -28,22 +28,26 @@ If you want to use this benchmark to collect data or eval your agents, only four
 
 Parked Cars(#1):
 
-https://github.com/opendilab/DOS/assets/17512647/15ce30b5-f165-44d2-abe8-f1a8e368399d
+
+https://github.com/opendilab/DOS/assets/17512647/5df23b85-471f-4c72-9953-57fc346fc33e
 
 
 Sudden Brak(#2):
 
-https://github.com/opendilab/DOS/assets/17512647/2d0c8f59-a680-4f43-ad50-fecea862b62d
+
+https://github.com/opendilab/DOS/assets/17512647/f64e59a1-b9ef-4d53-b36d-9c9c36256f29
 
 
 Left Turn(#3):
 
-https://github.com/opendilab/DOS/assets/17512647/ee10bec5-136a-4d29-9fea-34b2e426c5bf
+
+https://github.com/opendilab/DOS/assets/17512647/325855be-4285-4dda-b37d-09ee361da9c3
 
 
 Red Light Infraction(#4):
 
-https://github.com/opendilab/DOS/assets/17512647/dd848eb6-c9a4-4d63-be70-1423dbc880b3
+
+https://github.com/opendilab/DOS/assets/17512647/69b26a9a-cff9-4b1e-881c-71e9b46cfe16
 
 
 
