@@ -1,6 +1,7 @@
 # DOS: A driving simulation benchmark DriveOcclusionSim consisting of diverse occlusion events
 ![intro](assets/intro.png)
 > Hao Shao, Letian Wang, RuoBing Chen, Steven L. Waslander, Hongsheng Li, Yu Liu
+> 
 > [CVPR 2023](https://arxiv.org/abs/2305.10507)
 
 
