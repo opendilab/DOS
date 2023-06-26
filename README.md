@@ -17,11 +17,11 @@ This is a CARLA based framework providing diverse driving scenarios with occlude
 Compared to a previous occlusion benchmark [AUTOCASTSIM](https://github.com/hangqiu/AutoCastSim), the DOS benchmark: 1) includes occlusions of both vehicles and pedestrians, instead of only vehicles; 2) includes 100 cases of 4 scenarios, instead of only 3 cases of 3 scenarios; 3) considers specific occlusions that can potentially be resolved by temporal reasoning (intermittent occlusion, #1, #3) and global reasoning (constant occlusion but with interaction clues, #2, #4) about the scene, instead of random occlusions as in AUTOCASTSIM. Thus our scenarios can also serve as a good tracking-with-intermittent-occlusion benchmark and a People-as-Sensor benchmark.
 
 ## Setup
-If you want to use this benchmark to collect data or eval your agents, only four steps you need to do:
-1. Git clone the repo
-2. Go to the directory and backup your `leaderboard` and `scenario_runner`
-3. Replace the `leaderboard` and `scenario_runner` directory with the files provided in this repo
-4. Modify `leaderboard/scripts/run_evaluation.sh`, let `ROUTES` = `DOS_benchmark/DOS_0X_town05.xml`, `SCENARIOS` = `DOS_benchmark/DOS_0X_town05.json`. X is the scenario id (from 1 to 4)
+To use this benchmark for data collection or agent evaluation based on an existing project (like [InterFuser](https://github.com/opendilab/InterFuser), [LAV](https://github.com/dotchen/LAV)), you only need to follow these four steps:
+1. Clone the repository using Git.
+2. Go to your project directory and make a backup of your leaderboard and scenario_runner folders.
+3. Move the DOS_benchmark folder to your project directory, and replace the existing leaderboard and scenario_runner folders with the ones provided in this repository.
+4. Update leaderboard/scripts/run_evaluation.sh by setting ROUTES to DOS_benchmark/DOS_0X_town05.xml, SCENARIOS to DOS_benchmark/DOS_0X_town05.json (where X is the scenario id), and ensuring that TEAM_CONFIG, TEAM_AGENT, and CARLA_ROOT are correctly configured.
 
 
 ## Demo videos
