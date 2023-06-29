@@ -16,7 +16,20 @@ This is a CARLA based framework providing diverse driving scenarios with occlude
 
 Compared to a previous occlusion benchmark [AUTOCASTSIM](https://github.com/hangqiu/AutoCastSim), the DOS benchmark: 1) includes occlusions of both vehicles and pedestrians, instead of only vehicles; 2) includes 100 cases of 4 scenarios, instead of only 3 cases of 3 scenarios; 3) considers specific occlusions that can potentially be resolved by temporal reasoning (intermittent occlusion, #1, #3) and global reasoning (constant occlusion but with interaction clues, #2, #4) about the scene, instead of random occlusions as in AUTOCASTSIM. Thus our scenarios can also serve as a good tracking-with-intermittent-occlusion benchmark and a People-as-Sensor benchmark.
 
+
+
+## Prerequisites
+Carla version: 0.9.10.1
+
+If you haven't installed the environment of `leaderboard` or `scenario_runner` before:
+```bash
+cd /path/to/DOS
+pip install -r leaderboard/requirements.txt
+pip install -r scenario_runner/requirements.txt
+```
+
 ## Setup
+
 To use this benchmark for data collection or agent evaluation based on an existing project (like [InterFuser](https://github.com/opendilab/InterFuser), [LAV](https://github.com/dotchen/LAV)), you only need to follow these four steps:
 1. Clone the repository using Git.
 2. Go to your project directory and make a backup of your leaderboard and scenario_runner folders.
